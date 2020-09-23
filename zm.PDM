@@ -1,0 +1,326 @@
+[Root]
+Most Recent Package=Zimmunity v1.3.2 Beta Setup
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\zm
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINNT\system32\MSSTDFMT.DLL=
+C:\WINNT\system32\wininet.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\comct332.ocx=
+C:\WINNT\system32\Msmask32.ocx=
+C:\WINNT\system32\richtx32.ocx=
+C:\WINNT\system32\mscomct2.ocx=
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\Comdlg32.ocx=
+C:\WINNT\system32\msflxgrd.ocx=
+C:\WINNT\system32\tabctl32.ocx=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+c:\winnt\system32\sysinfo.ocx=
+c:\winnt\system32\tabctl32.ocx=
+c:\winnt\system32\richtx32.ocx=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\riched32.dll=
+c:\winnt\system32\picclp32.ocx=
+c:\winnt\system32\mswinsck.ocx=
+c:\winnt\system32\msstdfmt.dll=
+c:\winnt\system32\mshflxgd.ocx=
+c:\winnt\system32\msflxgrd.ocx=
+c:\winnt\system32\msdatlst.ocx=
+c:\winnt\system32\msdatgrd.ocx=
+c:\winnt\system32\mscomm32.ocx=
+c:\winnt\system32\mscomctl.ocx=
+c:\winnt\system32\mscomct2.ocx=
+c:\winnt\system32\mschrt20.ocx=
+c:\winnt\system32\msadodc.ocx=
+c:\winnt\system32\mci32.ocx=
+c:\winnt\system32\comdlg32.ocx=
+c:\winnt\system32\comct332.ocx=
+c:\winnt\system32\msmapi32.ocx=
+c:\winnt\system32\msmask32.ocx=
+
+[Package|Dep File 1|Files In Project]
+C:\zm\Zimmunity v1.3.2 Beta.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\wininet.dll=Yes
+C:\WINNT\system32\tabctl32.ocx=No
+C:\WINNT\system32\msflxgrd.ocx=No
+C:\WINNT\system32\Comdlg32.ocx=No
+C:\WINNT\system32\mscomctl.ocx=No
+C:\WINNT\system32\mscomct2.ocx=No
+C:\WINNT\system32\MSINET.OCX=Yes
+C:\WINNT\system32\richtx32.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=No
+C:\WINNT\system32\MSCHRT20.OCX=No
+C:\WINNT\system32\MSWINSCK.OCX=No
+C:\WINNT\system32\MSMAPI32.OCX=No
+C:\WINNT\system32\MCI32.OCX=No
+C:\WINNT\system32\PICCLP32.OCX=No
+C:\WINNT\system32\SYSINFO.OCX=No
+C:\WINNT\system32\MSCOMM32.OCX=No
+C:\WINNT\system32\Msmask32.ocx=No
+C:\WINNT\system32\MSDATGRD.OCX=No
+C:\WINNT\system32\MSSTDFMT.DLL=No
+C:\WINNT\system32\MSDATLST.OCX=No
+C:\WINNT\system32\comct332.ocx=No
+C:\WINNT\system32\MSADODC.OCX=No
+C:\WINNT\system32\MSHFLXGD.OCX=No
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\zm\Zimmunity v1.3.2 Beta.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\wininet.dll=$(WinSysPath)
+C:\WINNT\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINNT\system32\MCI32.OCX=$(WinSysPath)
+C:\WINNT\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINNT\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT\system32\Msmask32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINNT\system32\comct332.ocx=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\zm\Zimmunity v1.3.2 Beta.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Zimmunity v.1.3.2 Beta
+
+[Package|Dep File 1|IconGroups]
+Group0=Zeta Microsystems
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Dep File 1|Zeta Microsystems]
+Icon1="Zimmunity v1.3.2 Beta.exe"
+Title1=Zimmunity v.1.3.2 Beta
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Zimmunity v1.3.2 Beta.CAB
+DepCabRun=Zimmunity v1.3.2 Beta.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\zm
+ProjectFolder=C:\zm
+ServerSideCab=
+File1=C:\zm\Zimmunity v1.3.2 Beta.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Zimmunity v1.3.2 Beta Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\zm installation
+
+[Package|Zimmunity v1.3.2 Beta Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Zimmunity v1.3.2 Beta Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Zimmunity v1.3.2 Beta Setup|Files Found]
+
+[Package|Zimmunity v1.3.2 Beta Setup|Files Released]
+
+[Package|Zimmunity v1.3.2 Beta Setup|Missing Dependency Information]
+C:\WINNT\system32\MSSTDFMT.DLL=
+C:\WINNT\system32\wininet.dll=
+
+[Package|Zimmunity v1.3.2 Beta Setup|Out-of-Date Dependency Information]
+C:\WINNT\system32\comct332.ocx=
+C:\WINNT\system32\Msmask32.ocx=
+C:\WINNT\system32\richtx32.ocx=
+C:\WINNT\system32\mscomct2.ocx=
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\Comdlg32.ocx=
+C:\WINNT\system32\msflxgrd.ocx=
+C:\WINNT\system32\tabctl32.ocx=
+
+[Package|Zimmunity v1.3.2 Beta Setup|Files Added]
+
+[Package|Zimmunity v1.3.2 Beta Setup|Files Removed]
+c:\winnt\system32\sysinfo.ocx=
+c:\winnt\system32\tabctl32.ocx=
+c:\winnt\system32\richtx32.ocx=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\riched32.dll=
+c:\winnt\system32\picclp32.ocx=
+c:\winnt\system32\mswinsck.ocx=
+c:\winnt\system32\msstdfmt.dll=
+c:\winnt\system32\mshflxgd.ocx=
+c:\winnt\system32\msflxgrd.ocx=
+c:\winnt\system32\msdatlst.ocx=
+c:\winnt\system32\msdatgrd.ocx=
+c:\winnt\system32\mscomm32.ocx=
+c:\winnt\system32\mscomctl.ocx=
+c:\winnt\system32\mscomct2.ocx=
+c:\winnt\system32\mschrt20.ocx=
+c:\winnt\system32\msadodc.ocx=
+c:\winnt\system32\mci32.ocx=
+c:\winnt\system32\comdlg32.ocx=
+c:\winnt\system32\comct332.ocx=
+c:\winnt\system32\msmapi32.ocx=
+c:\winnt\system32\msmask32.ocx=
+
+[Package|Zimmunity v1.3.2 Beta Setup|Files In Project]
+C:\zm\Zimmunity v1.3.2 Beta.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\wininet.dll=Yes
+C:\WINNT\system32\tabctl32.ocx=No
+C:\WINNT\system32\msflxgrd.ocx=No
+C:\WINNT\system32\Comdlg32.ocx=No
+C:\WINNT\system32\mscomctl.ocx=No
+C:\WINNT\system32\mscomct2.ocx=No
+C:\WINNT\system32\MSINET.OCX=Yes
+C:\WINNT\system32\richtx32.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=No
+C:\WINNT\system32\MSCHRT20.OCX=No
+C:\WINNT\system32\MSWINSCK.OCX=No
+C:\WINNT\system32\MSMAPI32.OCX=No
+C:\WINNT\system32\MCI32.OCX=No
+C:\WINNT\system32\PICCLP32.OCX=No
+C:\WINNT\system32\SYSINFO.OCX=No
+C:\WINNT\system32\MSCOMM32.OCX=No
+C:\WINNT\system32\Msmask32.ocx=No
+C:\WINNT\system32\MSDATGRD.OCX=No
+C:\WINNT\system32\MSSTDFMT.DLL=No
+C:\WINNT\system32\MSDATLST.OCX=No
+C:\WINNT\system32\comct332.ocx=No
+C:\WINNT\system32\MSADODC.OCX=No
+C:\WINNT\system32\MSHFLXGD.OCX=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Zimmunity v1.3.2 Beta Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Zimmunity v1.3.2 Beta Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Zimmunity v1.3.2 Beta Setup|Install Locations]
+C:\zm\Zimmunity v1.3.2 Beta.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\wininet.dll=$(WinSysPath)
+C:\WINNT\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINNT\system32\MCI32.OCX=$(WinSysPath)
+C:\WINNT\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINNT\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT\system32\Msmask32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINNT\system32\comct332.ocx=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Zimmunity v1.3.2 Beta Setup|Configure Shared Files]
+Applicable=Yes
+C:\zm\Zimmunity v1.3.2 Beta.exe=No
+
+[Package|Zimmunity v1.3.2 Beta Setup|Distribution]
+Type=single
+Size=1.44 MB
+Title=Zimmunity v.1.3.2 Beta
+
+[Package|Zimmunity v1.3.2 Beta Setup|IconGroups]
+Group0=Zeta Microsystems
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Zimmunity v1.3.2 Beta Setup|Zeta Microsystems]
+Icon1="Zimmunity v1.3.2 Beta.exe"
+Title1=Zimmunity v.1.3.2 Beta
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Zimmunity v1.3.2 Beta Setup|Package]
+PackageFolder=C:\zm installation
+ProjectFolder=C:\zm
+ServerSideCab=
+File1=C:\zm installation\setup.exe
+File2=C:\zm installation\Setup.Lst
+File3=C:\zm installation\Zimmunity v1.3.2 Beta.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
